@@ -15,28 +15,6 @@
   <meta name="application-name" content="Taylor - Webwinkel">
   <meta property="og:title" content="Phone A12">
   <meta property="og:image" content="https://taylor-living.com/recommendations/phone/phone.jpeg">
-  <script>
-    (function () {
-      // Change
-      this.bcHostname = "bc.local-1.nl";
-      if (this.bcHostname.indexOf("127.0.0.1:") != -1) {
-        this.bcHostname = this.bcHostname.replace("127.0.0.1:", "localhost:");
-      }
-
-      // Do not change
-      var protocol = "https://"; //== document.location.protocol) ? "https://" : "http://");
-      var bcScript = document.createElement("script");
-      bcScript.async = true;
-      bcScript.src =
-        protocol +
-        this.bcHostname +
-        "/frontend/static/javascript/blueconic/blueconic.min.js";
-      (
-        document.getElementsByTagName("head")[0] ||
-        document.getElementsByTagName("body")[0]
-      ).appendChild(bcScript);
-    })();
-  </script>
 </head>
 
 <body>
